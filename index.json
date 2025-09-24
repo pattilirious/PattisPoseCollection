@@ -1,19 +1,27 @@
 {
-  "repositories": [
-    {
-      "id": "pattis.pose.collection",
-      "url": "https://pattilirious.github.io/PattisPoseCollection",
-      "packages": [
-        {
-          "id": "com.pattilirious.posecollection",
-          "versions": [
-            {
-              "version": "1.0.0",
-              "url": "https://github.com/pattilirious/PattisPoseCollection/Runtime/com.pattilirious.posecollection-1.0.0.zip"
-            }
-          ]
+  "name": "Patti's Pose Collection",
+  "id": "com.pattilirious.posecollection.repo",
+  "url": "https://pattilirious.github.io/PattisPoseCollection/index.json",
+  "author": "pattilirious",
+  "packages": {
+    "com.pattilirious.posecollection": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.pattilirious.posecollection",
+          "displayName": "Patti's Pose Collection",
+          "version": "1.0.0",
+          "unity": "2022.3",
+          "description": "Prefab collection of animation poses toggles for VRChat avatars.",
+          "url": "https://github.com/pattilirious/PattisPoseCollection/Runtime/com.pattilirious.posecollection-1.0.0.zip",
+          "author": {
+            "name": "pattilirious",
+            "url": "https://github.com/pattilirious"
+          },
+          "legacyFolders": {
+            "Assets": "Assets"
+          }
         }
-      ]
+      }
     }
-  ]
+  }
 }

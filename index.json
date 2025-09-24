@@ -6,7 +6,7 @@
   "packages": {
     "com.pattilirious.pose-collection": {
       "versions": {
-        "1.0.0": {
+        "1.0.1": {
           "name": "com.pattilirious.pose-collection",
           "displayName": "Patti's Pose Collection",
           "version": "1.0.1",

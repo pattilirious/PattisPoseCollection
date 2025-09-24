@@ -4,7 +4,7 @@
   "url": "https://pattilirious.github.io/PattisPoseCollection/index.json",
   "author": "pattilirious",
   "packages": {
-    "com.pattilirious.pose-collection": {
+    "com.pattilirious.posecollection": {
       "versions": {
         "1.0.0": {
           "name": "com.pattilirious.posecollection",

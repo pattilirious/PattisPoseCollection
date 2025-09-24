@@ -12,7 +12,7 @@
           "version": "1.0.0",
           "unity": "2022.3",
           "description": "Prefab collection of animation poses toggles for VRChat avatars.",
-          "url": "https://github.com/pattilirious/PattisPoseCollection/Runtime/com.pattilirious.posecollection-1.0.0.zip",
+          "url": "https://github.com/pattilirious/PattisPoseCollection/releases/download/1.0.0/com.pattilirious.posecollection-1.0.0.zip",
           "author": {
             "name": "pattilirious",
             "url": "https://github.com/pattilirious"

@@ -6,18 +6,32 @@ public class PoseCollectionMenu
     [MenuItem("Tools/Patti's Pose Collection/Add Pose Prefab")]
     public static void AddPosePrefab()
     {
-        // Path inside your package zip (Runtime/Prefabs/PattiPose.prefab)
-        string prefabPath = "Packages/com.pattilirious.pose-collection/Runtime/Prefabs/PoseCollection.prefab";
+        string prefabPath = "Packages/com.pattilirious.pose-collection/Runtime/Prefabs/PattiPose.prefab";
 
         GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
-        if (prefab != null)
+        if (prefab == null)
         {
-            PrefabUtility.InstantiatePrefab(prefab);
-            Debug.Log("Patti's Pose Prefab added to the scene!");
+            Debug.LogError("Could not find prefab at: " + prefabPath);
+            return;
+        }
+
+        // Check if something is selected in the hierarchy
+        GameObject parent = Selection.activeGameObject;
+
+        GameObject instance = (GameObject)PrefabUtility.InstantiatePrefab(prefab);
+
+        if (parent != null)
+        {
+            // Parent under the selected object (e.g. avatar root)
+            instance.transform.SetParent(parent.transform, false);
+            Debug.Log("Patti's Pose Prefab added under " + parent.name);
         }
         else
         {
-            Debug.LogError("Could not find prefab at: " + prefabPath);
+            Debug.Log("Patti's Pose Prefab added at scene root.");
         }
+
+        // Select the new instance for convenience
+        Selection.activeObject = instance;
     }
 }

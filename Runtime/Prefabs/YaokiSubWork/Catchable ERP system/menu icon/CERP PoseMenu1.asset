@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: CERP PoseMenu1
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 9d283c60852e14348b7910fb8f82a3c3, type: 2}
+  controls:
+  - name: Pose 1
+    icon: {fileID: 2800000, guid: 5aa08373227d1c44c9becad4fd79c1c0, type: 3}
+    type: 102
+    parameter:
+      name: CERP Pose
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pose 2
+    icon: {fileID: 2800000, guid: 6a1801137f6ce98469c3cf07128c7e84, type: 3}
+    type: 102
+    parameter:
+      name: CERP Pose
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pose 3
+    icon: {fileID: 2800000, guid: 467b92929c5e81645a66ce29818c9e79, type: 3}
+    type: 102
+    parameter:
+      name: CERP Pose
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pose 4
+    icon: {fileID: 2800000, guid: 9b2a12ddc4cb1cf49a45caa8c897fae0, type: 3}
+    type: 102
+    parameter:
+      name: CERP Pose
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pose 5
+    icon: {fileID: 2800000, guid: 38c893b2be36aab4d9c144a71904eb5e, type: 3}
+    type: 102
+    parameter:
+      name: CERP Pose
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Pose 6
+    icon: {fileID: 2800000, guid: 34af4990ae2498d4d88c9c8f521127b4, type: 3}
+    type: 102
+    parameter:
+      name: CERP Pose
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

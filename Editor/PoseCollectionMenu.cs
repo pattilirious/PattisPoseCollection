@@ -6,7 +6,7 @@ public class PoseCollectionMenu
     [MenuItem("Tools/Patti's Pose Collection/Add Pose Prefab")]
     public static void AddPosePrefab()
     {
-        string prefabPath = "Packages/com.pattilirious.pose-collection/Runtime/Prefabs/PoseCollection.prefab";
+        string prefabPath = "Packages/com.pattilirious.pose-collection/Runtime/Prefabs/PattiPose.prefab";
 
         GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
         if (prefab == null)

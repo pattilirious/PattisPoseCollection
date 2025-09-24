@@ -1,14 +1,17 @@
 {
   "name": "com.pattilirious.pose-collection",
-  "displayName": "Pose Collection",
+  "displayName": "Patti's Pose Collection",
   "version": "1.0.0",
-  "unity": "2022.3.22f1",
-  "description": "A prefab with pose toggles for VRChat avatars.",
+  "unity": "2022.3",
+  "description": "Prefab collection of animation pose toggles for VRChat avatars.",
   "author": {
-    "name": "Pattilirious",
-    "url": "https://github.com/pattilirious/PattisPoseCollection"
+    "name": "pattilirious",
+    "url": "https://github.com/pattilirious"
   },
   "vpmDependencies": {
     "com.vrchat.avatars": "^3.5.0"
+  },
+  "legacyFolders": {
+    "Assets": "Assets"
   }
 }

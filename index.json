@@ -1,13 +1,13 @@
 {
   "name": "Patti's Pose Collection Repo",
-  "id": "com.pattilirious.pose-collection.repo",
+  "id": "com.pattilirious.posecollection.repo",
   "url": "https://pattilirious.github.io/PattisPoseCollection/index.json",
   "author": "pattilirious",
   "packages": {
     "com.pattilirious.pose-collection": {
       "versions": {
         "1.0.0": {
-          "name": "com.pattilirious.pose-collection",
+          "name": "com.pattilirious.posecollection",
           "displayName": "Patti's Pose Collection",
           "version": "1.0.0",
           "url": "https://github.com/pattilirious/PattisPoseCollection/releases/download/v1.0.0/com.pattilirious.posecollection-1.0.0.zip"

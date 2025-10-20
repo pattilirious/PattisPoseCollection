@@ -6,11 +6,11 @@
   "packages": {
     "com.pattilirious.pose-collection": {
       "versions": {
-        "1.0.1": {
+        "1.0.2": {
           "name": "com.pattilirious.pose-collection",
           "displayName": "Patti's Pose Collection",
-          "version": "1.0.1",
-          "url": "https://github.com/pattilirious/PattisPoseCollection/releases/download/v1.0.1/com.pattilirious.pose-collection-1.0.1.zip"
+          "version": "1.0.2",
+          "url": "https://github.com/pattilirious/PattisPoseCollection/releases/download/v1.0.2/com.pattilirious.pose-collection-1.0.2.zip"
         }
       }
     }
